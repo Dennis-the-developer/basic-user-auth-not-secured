@@ -5,9 +5,6 @@ import expressOasGenerator from "express-oas-generator";
 import { dbconnection } from "./config/db.js";
 
 
-
-
-
 // Connect to express app
 const app = express();
 expressOasGenerator.handleResponses(app, {
